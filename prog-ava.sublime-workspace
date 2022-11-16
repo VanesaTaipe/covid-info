@@ -1,0 +1,338 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"count"
+			],
+			[
+				"is",
+				"isna"
+			],
+			[
+				"co",
+				"columns"
+			],
+			[
+				"prin",
+				"print_results"
+			],
+			[
+				"if",
+				"ifmain"
+			],
+			[
+				"num",
+				"numpy"
+			],
+			[
+				"Ex",
+				"Excercise"
+			],
+			[
+				"ac",
+				"action="
+			],
+			[
+				"pas",
+				"parser"
+			],
+			[
+				"i",
+				"interrupt"
+			],
+			[
+				"fo",
+				"for"
+			],
+			[
+				"p",
+				"print"
+			],
+			[
+				"n",
+				"numero_bus"
+			],
+			[
+				"f",
+				"format"
+			],
+			[
+				"in",
+				"ingreso_neto"
+			],
+			[
+				"d",
+				"dia"
+			],
+			[
+				"t",
+				"today"
+			],
+			[
+				"da",
+				"day_name"
+			],
+			[
+				"we",
+				"weekday"
+			],
+			[
+				"w",
+				"weekday"
+			],
+			[
+				"wh",
+				"while"
+			],
+			[
+				"whi",
+				"while"
+			],
+			[
+				"de",
+				"def"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Anaconda: Goto Python object"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"paca",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/angelzuniga/Documents/programacion/python-apps/prog-avanzada"
+	],
+	"file_history":
+	[
+		"/Users/angelzuniga/Documents/programacion/python-apps/prog-avanzada/main.py",
+		"/Users/angelzuniga/Library/Application Support/Sublime Text/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/angelzuniga/Documents/programacion/python-apps/prog-avanzada/prog-ava.sublime-project",
+		"/Users/angelzuniga/Documents/programacion/python-apps/prog-avanzada/prog-avanzada.sublime-project",
+		"/Users/angelzuniga/Library/Application Support/Sublime Text/Packages/Anaconda/README.md",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/src/Pots/excercise_manager.py",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/src/Pots/routines_manager.py",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/src/Pots/user_manager.py",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/src/BackOffice/excercise_manager.py",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/main.py",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/src/Shared/__init__.py",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/src/Shared/services/excercise_service.py",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/src/Shared/excercise.py",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/src/Shared/services/routine_service.py",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/src/Shared/services/user_service.py",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/test",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/src/Shared/services.py",
+		"/Users/angelzuniga/Documents/programacion/python-apps/timer_normal_overflow.py",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/apps/Pots/Backend/main.py",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/apps/BackOffice/frontend/init.py",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/apps/Pots/Frontend/static/global.css",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/apps/Pots/Frontend/templates/index.html",
+		"/Users/angelzuniga/Documents/programacion/python-apps/fit-app/apps/Pots/Frontend/templates/login.html",
+		"/Users/angelzuniga/Documents/programacion/main.py"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 170.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 50.0
+	},
+	"input":
+	{
+		"height": 62.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 561.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.stino_panel":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "prog-ava.sublime-project",
+	"replace":
+	{
+		"height": 96.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/programacion/python-apps/prog-avanzada/prog-avanzada.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
