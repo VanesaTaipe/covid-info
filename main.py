@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 from streamlit_option_menu import option_menu
+from datetime import date
 """['id_persona', 'fecha_fallecimiento', 'edad', 'sexo',
        'criterio_fallecido', 'ubigeo_cdc', 'dpt_cdc', 'prov_cdc', 'dist_cdc',
        'cdc_positividad', 'flag_vacuna', 'fecha_dosis1', 'fabricante_dosis1',
@@ -18,12 +19,30 @@ data_na = data.dropna()
 print(data['flag_vacuna'].value_counts())
 print(data.groupby('flag_vacuna')['fecha_fallecimiento'].count())
 print(data['fecha_dosis1'].count() - data['fecha_dosis1'].isna().count())
-fec_fall = data['fecha_fallecimiento']
 print(data.isna().sum())
 print(data['dep_domicilio'].value_counts())
 print(data.columns.array)
-options = [""]
+
+# Mapear Rango de Fechas
+
+print(data['fecha_fallecimiento'])
+
+
+# def formatearFechas(fech: str):
+#     fecha = fech.split('/')
+#     map(lambda str: int(str), fecha)
+#     return date.fromisocalendar()
+
+
+fec_fall = data['fecha_fallecimiento']
+# data['fecha_fallecimiento'] = fec_fall.aggregate(formatearFechas)
+print(data['fecha_fallecimiento'])
+
+# criterios_de_grafica
+options = ["Localidad Departamento"]
+
 with st.sidebar:
-    selected = option_menu("Muertos Por Covid Peru Segun: ", list(data.columns.array),
-                           icons=['house', 'gear'], menu_icon="cast", default_index=1)
-st.text(selected)
+    selected = option_menu("Muertos Por Covid Peru Segun: ", options,
+                           icons=['house', 'gear'], menu_icon="cast", default_index=0)
+if selected == "Localidad Departamento":
+    st.bar_chart(data["dep_domicilio"].value_counts())
