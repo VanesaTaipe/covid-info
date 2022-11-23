@@ -1,3 +1,4 @@
-/stl-venv/*
-prog-ava.sublime-workspace
+/stl-venv
 .DS_Store
+prog-avanzada.sublime-project
+prog-avanzada.sublime-workspace
