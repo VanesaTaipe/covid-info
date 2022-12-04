@@ -45,11 +45,11 @@ options = ["Tabla Principal", "Sexo", "Mapas","Edad"]
 with st.sidebar:
     selected = option_menu("Muertos Por Covid Peru Segun: ", options, default_index=0)
 if selected == "Tabla Principal":
-    st.title("Tabala 50 primeros")
+    st.title("Tabla 50 primeros")
     st.write("Tomando los campos mas relevantes")
     st.table(data.head(50).fillna({"fabricante_dosis1":"No aplico dosis","fabricante_dosis2":"No aplico dosis","fabricante_dosis3":"No aplico dosis"}))
 elif selected == "Sexo":
-    st.header("Grafico de barras  de dobler entrada con Criterio de Sexo")
+    st.header("Grafico de barras  de doble entrada con Criterio de Sexo")
     option = st.selectbox(
         label="Elija una opcion para filtrar", options=data.drop(["sexo","id_persona"], axis=1).columns)
     data2 = pd.concat([data.loc[data["sexo"] == 'M', [option]].value_counts(), data.loc[data["sexo"] == 'F', [option]].value_counts()], axis=1)
