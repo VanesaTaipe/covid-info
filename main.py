@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 from datetime import  datetime
 # cargando la data
-url = "~/ideaProjects/covid-info/TB_FALLECIDO_HOSP_VAC.csv"
+url = "TB_FALLECIDO_HOSP_VAC.csv"
 url_json = "peru_distrital_simple.geojson.json"
 data = pd.read_csv(url)
 map_data = gpd.read_file(url_json)
