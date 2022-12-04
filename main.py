@@ -26,7 +26,7 @@ for dist in map_data['IDDIST']:
 map_data['fallecidos'] = fallecidos
 fig, ax = plt.subplots(figsize=(20, 20))
 
-Control del título y los ejes
+# Control del título y los ejes
 ax.set_title('Cantidad de fallecidos por distrito', pad=20, fontdict={'fontsize': 20, 'color': '#4873ab'})
 ax.set_xlabel('Longitud')
 ax.set_ylabel('Latitud')
